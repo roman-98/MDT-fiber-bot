@@ -1,0 +1,21 @@
+{
+  "name": "mdt-fiber-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "Roman Strypa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.15.0"
+  }
+}
