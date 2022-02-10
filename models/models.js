@@ -61,12 +61,6 @@ const Phones = sequelize.define('phones', {
     allowNull: false
   }
 });
-/*
-Phones.create({
-  phoneNumber: '+380684637388'
-}).then(res=>{
-  console.log(res);
-}).catch(err=>console.log(err));
-*/
+
 module.exports = {Starosta, Phones};
 
